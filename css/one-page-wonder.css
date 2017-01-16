@@ -50,8 +50,7 @@ body {
 }
 
 .searchbox {
-    margin-top: 25px;
-    margin-bottom: -30px;
+    margin-top: 15px;
 }
 
 .searchbox input {
@@ -66,6 +65,7 @@ body {
     height: 35px;
     width: 180px;
     border:none; 
+    margin:15px;
 }
 
 .lbut {
@@ -117,8 +117,8 @@ body {
 }
 
 .foot{
-    background-color: #010001;
-    color:#fff;
+    
+    color:#010101;
     font-size: 15px;
     padding: 10px;
 }
