@@ -5,17 +5,20 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta name="theme-color" content="#010001" />
 
-    <title>Simple Sidebar - Start Bootstrap Template</title>
+    <title>IADS</title>
+    <link rel="icon" type="image/png" href="img/iads.png" />
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+    <link href="css/breeserif.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,73 +31,124 @@
 
 <body>
 
-    <div id="wrapper">
-
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
-                        Start Bootstrap
-                    </a>
-                </li>
-                <li>
-                    <a href="#">Dashboard</a>
-                </li>
-                <li>
-                    <a href="#">Shortcuts</a>
-                </li>
-                <li>
-                    <a href="#">Overview</a>
-                </li>
-                <li>
-                    <a href="#">Events</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
+    <!-- Navigation -->
+    <nav class="navbar  navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="img/iads.svg" width="90px" height="45" class="logo"></img></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right nv">
+                  <li><a href="#"><span class="glyphicon glyphicon-user"></span> SIGN UP</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> LOGIN</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <!-- /#sidebar-wrapper -->
+        <!-- /.container -->
+    </nav>
 
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1>Simple Sidebar</h1>
-                        <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
-                        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
-                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
-                    </div>
-                </div>
+    <!-- Full Width Image Header -->
+    <header class="header-image">
+        <div class="headline">
+            <div class="container">
+                <h1><span class="heading">IADS</span></h1>
+                <h2 class=""><span class="heading">Learn <span class="element"></span></span></h2>
             </div>
         </div>
-        <!-- /#page-content-wrapper -->
+    </header>
 
+    <!-- Page Content -->
+    <div class="container">
+
+          <form class="searchbox">
+          <center>
+                    <input type="text"  placeholder="Search" />
+                     <button type="submit" class="but" ><span class="glyphicon glyphicon-search"></span> Find Courses</button>
+            </center>
+            </form>
+
+        <hr class="featurette-divider">
+
+        <!-- First Featurette -->
+        <div class="featurette" id="about">
+            <img class="featurette-image img-circle img-responsive pull-right" src="img/books.jpg" width="500px" height="500px">
+            <h2 class="featurette-heading">Learn Anything 
+                <span class="text-muted">-  A huge variety of courses available to choose from!</span>
+            </h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Second Featurette -->
+        <div class="featurette" id="services">
+            <img class="featurette-image img-circle img-responsive pull-left" src="img/laptop.jpg" width="500px" height="500px">
+            <h2 class="featurette-heading">Learn Anywhere
+                <span class="text-muted"> - Consume content on the move!</span>
+            </h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Third Featurette -->
+        <div class="featurette" id="contact">
+            <img class="featurette-image img-circle img-responsive pull-right" src="img/watches.jpg" width="500px" height="500px">
+            <h2 class="featurette-heading">Learn Anytime
+                <span class="text-muted">- No strict schedule!</span>
+            </h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <hr class="featurette-divider">
+        <center>
+        <br/>
+        <h2 class="featurette-heading">Sign Up Today!
+                <span class="text-muted">- And get access to a world of opportunities! </span>
+        </h2>
+        <br/>
+        <button class="lbut"><span class="glyphicon glyphicon-book"></span> BROWSE  COURSES</button>
+        <button class="lbut"><span class="glyphicon glyphicon-user"></span> SIGN UP</button>
+        </center>
     </div>
-    <!-- /#wrapper -->
+    <!-- /.container -->
+     <br/>
+     <br/>
+     <br/>
+     <!-- Footer -->
+        <footer>
+        <div class="text-center foot">
+                    <span>Copyright &copy; IADS 2016</span>
+        </div>
+        </footer>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
-    <!-- Menu Toggle Script -->
+    <script src="js/typed.js"></script>
     <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
+      $(function(){
+          $(".element").typed({
+            strings: ["<strong>Anything.^</strong>", "<strong>Anywhere.^</strong>","<strong>Anytime.^</strong>"],
+            typeSpeed: 0
+          });
+      });
+      $(document).click(function(e) {
+    if (!$(e.target).is('a')) {
+        $('.collapse').collapse('hide');        
+    }
+});
     </script>
-
 </body>
 
 </html>
